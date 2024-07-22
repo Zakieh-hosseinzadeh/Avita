@@ -1,0 +1,192 @@
+@media screen and (max-width: 1200px) {
+    #menu li {
+        margin: 0 7px;
+    }
+}
+
+@media screen and (max-width: 992px ) {
+    #menu li {
+        margin: 0 2px;
+    }
+
+    #logo > img {
+        height: 60px;
+    }
+    .title::after{
+        width: 8%;
+    }
+    .title::before{
+        width: 15%;
+        right: 43%;
+    }
+
+    #service-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .service {
+        flex-basis: 47%;
+    }
+
+    .massage {
+        width: 25%;
+        height: 65%;
+    }
+
+    #filter {
+        width: 100%;
+        column-gap: 0;
+    }
+
+    #gallery {
+        grid-template-columns:auto auto;
+    }
+
+    .overlay > p {
+        right: 55%;
+    }
+
+    .overlay > h2 {
+        bottom: -53%;
+    }
+
+    #team-box {
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    .team {
+        flex-basis: 47%;
+    }
+
+    .bg-team {
+        height: 23%;
+    }
+
+    #footer-box {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        flex-basis: 47%;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    #menu ul{
+        display: none;
+    }
+    h1{
+        font-size: 48px;
+    }
+    #search-box{
+        width: 100%;
+    }
+    .service{
+        flex-basis: 100%;
+    }
+    #situation-box{
+        flex-wrap: wrap;
+    }
+    .condition{
+        flex-basis: 47%;
+    }
+    .customer{
+        background-size: 50px;
+
+    }
+    .top-customer-box{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .massage{
+        width: 30%;
+        position: absolute;
+        top: 13px;
+        left: -18px;
+        height: 30%;
+    }
+    .overlay > p {
+        right: 50%;
+    }
+    .bg-team {
+        height: 28%;
+    }
+    #contact-box{
+        flex-wrap: wrap;
+    }
+    .contact{
+        flex-basis: 47%;
+    }
+}
+
+@media screen and (max-width: 576px ) {
+#main-page p{
+    font-size: 13px;
+}
+    .condition{
+        flex-basis: 100%;
+    }
+    #customer-box{
+        flex-wrap: wrap;
+    }
+    .customer{
+        flex-basis: 100%;
+    }
+    .massage{
+        height: 50%;
+    }
+    .title::after{
+        width: 13%;
+    }
+    .title::before{
+        width: 29%;
+        right: 36%;
+    }
+    #gallery {
+        grid-template-columns: auto;
+    }
+    .team{
+        flex-basis: 100%;
+    }
+    .bg-team {
+        height: 23%;
+    }
+    #right{
+        width: 100%;
+    }
+    #left{
+        width: 100%;
+    }
+    #filter{
+        display: block;
+        border-radius: 20px;
+    }
+    #filter li{
+        margin: 5px 0;
+    }
+
+    #filter a:link,
+    #filter a:visited {
+        display: block;
+    }
+    #logo2>img {
+        display: block;
+        margin: 0 auto;
+    }
+   .footer-list a img{
+       margin-right:38% ;
+   }
+    .footer-list li{
+        display: block;
+        margin: 0 auto;
+    }
+    #copy{
+        font-size: 14px;
+    }
+
+}
